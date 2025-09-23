@@ -6,3 +6,15 @@ body{
 main{
     flex-grow: 1;
 }
+.banner {
+    width: 100vw;
+    height: 30dvh;
+    object-fit: cover;
+    padding: 0;
+}
+
+@media (width >= 992px) {
+    .banner {
+        height: 45dvh;
+    }
+}
