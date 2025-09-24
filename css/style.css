@@ -13,8 +13,17 @@ main {
   padding: 0;
 }
 .circle:hover {
-    transform: scale(1.2);
-    transition: transform 0.3s ease;
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+.rectangle:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.cositas-dulces {
+  width: 20em;
+  height: 15em;
+  object-fit: cover;
 }
 .cositas-dulces-rounded {
   width: 15em;
