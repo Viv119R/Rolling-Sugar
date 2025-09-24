@@ -31,6 +31,19 @@ main {
   object-fit: cover;
   border-radius: 50%;
 }
+.gal-card {
+  width: 280px;
+  height: 500px;
+  padding: 0;
+  margin: 8px 0px;
+  &:hover {
+    transform: scale(1.1);
+  }
+  img {
+    height: 420px;
+    object-fit: cover;
+  }
+}
 @media (width >= 992px) {
   .banner {
     height: 45dvh;
