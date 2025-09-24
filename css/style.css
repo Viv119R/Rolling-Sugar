@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex-grow: 1;
+}
+.banner {
+  width: 100vw;
+  height: 30dvh;
+  object-fit: cover;
+  padding: 0;
+}
+.circle:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+.rectangle:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.cositas-dulces {
+  width: 20em;
+  height: 15em;
+  object-fit: cover;
+}
+.cositas-dulces-rounded {
+  width: 15em;
+  height: 15em;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.gal-card {
+  width: 280px;
+  height: 500px;
+  padding: 0;
+  margin: 8px 0px;
+  &:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  img {
+    height: 420px;
+    object-fit: cover;
+  }
+}
+@media (width >= 992px) {
+  .banner {
+    height: 45dvh;
+  }
+}

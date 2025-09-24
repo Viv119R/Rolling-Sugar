@@ -1,19 +1,326 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Practica de git, con el proyecto Rolling Sugar">
-    <meta name="author" content="Vivanco">
-    <link rel="shortcut icon" href="img/pngwing.com.png" type="Sugar">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Practica de git, con el proyecto Rolling Sugar"
+    />
+    <meta name="author" content="Vivanco" />
+    <link rel="shortcut icon" href="img/pngwing.com.png" type="Sugar" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Rolling Sugar</title>
-</head>
-<body>
-    <header></header>
-    <main></main>
-    <footer><div>&copy Todos los derechos reservados</div></footer>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-semibold" href="index.html"
+            >Rolling Sugar <i class="bi bi-box"></i
+          ></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#recetas">Recetas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#productos">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="container-fluid p-0">
+        <div class="row">
+          <img
+            class="banner"
+            src="img/ngo-ngoc-khai-huyen-ikCfEh8ZR94-unsplash.jpg"
+            alt=""
+          />
+        </div>
+        <div class="container text-center" id="recetas">
+          <h1 class="fw-light my-4">Eligí qué querés cocinar</h1>
+          <div class="row justify-content-evenly">
+            <div class="col col-12 col-md-6 col-lg-3 my-3 circle">
+              <a
+                href="pages/recetas-de-alfajores.html"
+                class="text-decoration-none"
+                title="Ver recetas de Alfajores"
+                ><img
+                  class="img-fluid cositas-dulces-rounded my-2"
+                  src="img/pexels-agustina-r-street-353574760-17358380.jpg"
+                  alt="Alfajores"
+                />
+                <h3 class="text-secondary">Alfajores</h3></a
+              >
+            </div>
+            <div class="col col-12 col-md-6 col-lg-3 my-3 circle">
+              <a
+                href="#"
+                class="text-decoration-none"
+                title="Ver recetas de Budin"
+                ><img
+                  class="img-fluid cositas-dulces-rounded my-2"
+                  src="img/fran-jacquier-RDczqo9zGI0-unsplash.jpg"
+                  alt="Budin"
+                />
+                <h3 class="text-secondary">Budin</h3></a
+              >
+            </div>
+            <div class="col col-12 col-md-6 col-lg-3 my-3 circle">
+              <a
+                href="#"
+                class="text-decoration-none"
+                title="Ver recetas de Muffins"
+                ><img
+                  class="img-fluid cositas-dulces-rounded my-2"
+                  src="img/bethany-wigmore-6ECvZJ547l4-unsplash.jpg"
+                  alt="Muffins"
+                />
+                <h3 class="text-secondary">Muffins</h3></a
+              >
+            </div>
+            <div class="col col-12 col-md-6 col-lg-3 my-3 circle">
+              <a
+                href="#"
+                class="text-decoration-none"
+                title="Ver recetas de Tortas y tartas"
+                ><img
+                  class="img-fluid cositas-dulces-rounded my-2"
+                  src="img/rosalind-chang-e3O5awQdZXk-unsplash.jpg"
+                  alt="Torta"
+                />
+                <h3 class="text-secondary">Tortas y tartas</h3></a
+              >
+            </div>
+            <div class="col col-12 col-md-6 col-lg-3 my-3 circle">
+              <a
+                href="#"
+                class="text-decoration-none"
+                title="Ver recetas de Postres"
+                ><img
+                  class="img-fluid cositas-dulces-rounded my-2"
+                  src="img/matheus-ferrero-Doyf6UvvAYU-unsplash.jpg"
+                  alt="Postre"
+                />
+                <h3 class="text-secondary">Postres</h3></a
+              >
+            </div>
+            <div class="col col-12 col-md-6 col-lg-3 my-3 circle">
+              <a
+                href="#"
+                class="text-decoration-none"
+                title="Ver recetas Para el té"
+                ><img
+                  class="img-fluid cositas-dulces-rounded my-2"
+                  src="img/helena-lopes - oejWBe7UoM-unsplash.jpg"
+                  alt="Para el té"
+                />
+                <h3 class="text-secondary">Para el té</h3></a
+              >
+            </div>
+            <div class="col col-12 col-md-6 col-lg-3 my-3 circle">
+              <a
+                href="#"
+                class="text-decoration-none"
+                title="Ver recetas de Galletitas"
+                ><img
+                  class="img-fluid cositas-dulces-rounded my-2"
+                  src="img/ellie-ellien-04yMqTmUeHQ-unsplash.jpg"
+                  alt="Galletas"
+                />
+                <h3 class="text-secondary">Galletitas</h3></a
+              >
+            </div>
+            <div class="col col-12 col-md-6 col-lg-3 my-3 circle">
+              <a href="#" class="text-decoration-none" title="Ver otras recetas"
+                ><img
+                  class="img-fluid cositas-dulces-rounded my-2"
+                  src="img/pixelsnap-visualz-4sdpdXUT79Q-unsplash.jpg"
+                  alt="Otras recetas"
+                />
+                <h3 class="text-secondary">Otras recetas</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+        <article
+          class="d-flex justify-content-center align-items-center text-white bg-primary py-4 my-3"
+        >
+          <div class="row">
+            <h1 class="fw-light text-center">
+              Transforma ingrediente en emociones...
+            </h1>
+            <h1 class="fw-light text-center">
+              ¡Cada bocado cuenta una historia!
+            </h1>
+          </div>
+        </article>
+      </section>
+      <section class="container-fluid p-0 mb-5" id="productos">
+        <div class="container text-center">
+          <h1 class="fw-light mb-3">Comunidad</h1>
+          <div class="row justify-content-evenly">
+            <div class="col col-12 col-md-6 col-lg-3 my-3 rectangle">
+              <a href="#" class="text-decoration-none"
+                ><img
+                  class="img-fluid cositas-dulces"
+                  src="img/kavita-joshi-rai-lE5O9DktAQY-unsplash.jpg"
+                  alt="medialunas"
+                />
+              </a>
+            </div>
+            <div class="col col-12 col-md-6 col-lg-3 my-3 rectangle">
+              <a
+                href="#"
+                class="text-decoration-none"
+                ><img
+                  class="img-fluid cositas-dulces"
+                  src="img/pexels-noellegracephotos-3602269.jpg"
+                  alt="pie de arandanos"
+                />
+              </a>
+            </div>
+            <div class="col col-12 col-md-6 col-lg-3 my-3 rectangle">
+              <a
+                href="#"
+                class="text-decoration-none"
+                ><img
+                  class="img-fluid cositas-dulces"
+                  src="img/pexels-roman-odintsov-5150560.jpg"
+                  alt="Muffins de frutillas"
+                />
+              </a>
+            </div>
+            <div class="col col-12 col-md-6 col-lg-3 my-3 rectangle">
+              <a
+                href="#"
+                class="text-decoration-none"
+                title="Ver recetas de Tortas y tartas"
+                ><img
+                  class="img-fluid cositas-dulces"
+                  src="img/swapnil-dwivedi-Nl8Oa6ZuNcA-unsplash.jpg"
+                  alt="torta"
+                />
+              </a>
+            </div>
+            <div class="col col-12 col-md-6 col-lg-3 my-3 rectangle">
+              <a
+                href="#"
+                class="text-decoration-none"
+                ><img
+                  class="img-fluid cositas-dulces"
+                  src="img/pexels-kadiravsarr-14705210.jpg"
+                  alt="Donuts"
+                />
+              </a>
+            </div>
+            <div class="col col-12 col-md-6 col-lg-3 my-3 rectangle">
+              <a
+                href="#"
+                class="text-decoration-none"
+                ><img
+                  class="img-fluid cositas-dulces"
+                  src="img/pexels-summerstock-420308.jpg"
+                  alt="donut"
+                />
+              </a>
+            </div>
+            <div class="col col-12 col-md-6 col-lg-3 my-3 rectangle">
+              <a
+                href="#"
+                class="text-decoration-none"
+                ><img
+                  class="img-fluid cositas-dulces"
+                  src="img/pexels-dima-valkov-1186343-3734027.jpg"
+                  alt="macarrones"
+                />
+              </a>
+            </div>
+            <div class="col col-12 col-md-6 col-lg-3 my-3 rectangle">
+              <a href="#" class="text-decoration-none" title="Ver otras recetas"
+                ><img
+                  class="img-fluid cositas-dulces"
+                  src="img/pexels-minasenishino-33936500.jpg"
+                  alt="tortilla de huevo japonesa"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div
+        class="d-flex justify-content-center align-items-center text-white bg-primary py-4 my-1"
+        id="contacto"
+      >
+        <div class="row">
+          <div>
+            <h4 class="text-center">Seguinos en:</h4>
+            <div>
+              <a
+                href="https://www.instagram.com/"
+                class="text-white mx-3"
+                title="Instagram"
+                ><i class="bi bi-instagram fs-2"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/"
+                class="text-white mx-3"
+                title="Facebook"
+                ><i class="bi bi-facebook fs-2"></i
+              ></a>
+              <a
+                href="https://www.x.com/"
+                class="text-white mx-3"
+                title="Twitter"
+                ><i class="bi bi-twitter fs-2"></i
+              ></a>
+              <a
+                href="https://www.tiktok.com/"
+                class="text-white mx-3"
+                title="TikTok"
+                ><i class="bi bi-tiktok fs-2"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center text-white bg-primary py-4">
+        &copy Todos los derechos reservados
+      </div>
+    </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
