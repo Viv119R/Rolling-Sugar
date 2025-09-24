@@ -5,6 +5,8 @@ Autor: Matías José Vivanco
 Rolling Sugar es una página web dedicada a presentar una variedad de delicias dulces, como alfajores, postres, tartas y otras preparaciones irresistibles.
 El objetivo de este proyecto es ofrecer un espacio visualmente atractivo donde se destaquen los productos y su estética.
 
+[Mira una demo del proyecto](https://rolling-sugar.netlify.app/)
+
 🛠️ Tecnologías utilizadas
 
 HTML5: para la estructura semántica de todo el sitio.
